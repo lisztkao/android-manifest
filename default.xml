@@ -16,7 +16,7 @@
   <project remote="advantech-github" name="linux-imx6" path="kernel_imx" revision="imx_4.1.15_1.0.0_ga"/>
 
 <!-- Advantech RISC Android code -->
-  <project remote="advantech-github" name="android_risc_build" path="build" revision="android-6.0.1_r22"/>
+  <project remote="advantech-github" name="android_risc_build" path="build" revision="android-6.0.1_r22">
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project remote="advantech-github" name="android_risc_bionic" path="bionic" revision="android-6.0.1_r22"/>
