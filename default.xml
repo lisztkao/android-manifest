@@ -20,6 +20,7 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project remote="advantech-github" name="android_risc_bionic" path="bionic" revision="android-6.0.1_r22"/>
+  <project remote="advantech-github" name="android_risc_bootable" path="bootable" revision="android-6.0.1_r22"/>
   <project remote="advantech-github" name="android_risc_device" path="device" revision="android-6.0.1_r22"/>
   <project remote="advantech-github" name="android_risc_hardware" path="hardware" revision="android-6.0.1_r22"/>
   <project remote="advantech-github" name="android_risc_libcore" path="libcore" revision="android-6.0.1_r22"/>
@@ -32,7 +33,6 @@
 <!-- Android Source Code from Google Unchanged AOSP project--> 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
