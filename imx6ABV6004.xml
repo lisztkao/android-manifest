@@ -13,10 +13,10 @@
 
 <!-- Advantech RISC Devices Kernel and U-Boot -->
   <project remote="advantech-github" name="uboot-imx6" path="bootable/bootloader/uboot-imx" revision="9a46f11338fe03a6aa182e7814cca7b057705631"/>
-  <project remote="advantech-github" name="linux-imx6" path="kernel_imx"/>
+  <project remote="advantech-github" name="linux-imx6" path="kernel_imx" revision="ba2cf92040690445ac49b4b84323d344e36af614"/>
 
 <!-- Advantech RISC Devices Kernel and U-Boot Patch file-->
-  <project remote="advantech-github" name="Android_Patch" path="patches_android_6.0.1"/>
+  <project remote="advantech-github" name="Android_Patch" path="patches_android_6.0.1" revision="bc3055ac804a6a7e1e30eed7913ee57da2a50fcd"/>
 
 <!-- Advantech RISC Android code -->
   <project remote="advantech-github" name="android_risc_build" path="build" revision="ff85269352eae01d7ac4ed9f70a97a111fb33c56">
@@ -31,7 +31,7 @@
   <project remote="advantech-github" name="android_risc_system" path="system" revision="d24386bd6245357a7f94d3cf5a66e8b162a9a519"/>
   <project remote="advantech-github" name="android_risc_external" path="external" revision="33772d22ea1d19b58d23a7001c83aad613662811"/>
   <project remote="advantech-github" name="android_risc_frameworks" path="frameworks" revision="88e4958788fca3f48a665d2ae990a97217cb0614"/>
-  <project remote="advantech-github" name="android_risc_prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
+  <project remote="advantech-github" name="android_risc_prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="63e52a43f2955cc6bfdd1d6a36f5736c987338ac"/>
   <project remote="advantech-github" name="android_risc_vendor" path="vendor" revision="bdbb00d9e77ca9ab49e95a28a7ddfa638b551c2f"/>
 
 <!-- Android Source Code from Google Unchanged AOSP project--> 
