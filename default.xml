@@ -13,7 +13,7 @@
 
 <!-- Advantech RISC Devices Kernel and U-Boot -->
   <project remote="advantech-github" name="uboot-imx6" path="bootable/bootloader/uboot-imx" revision="imx_v2015.04_4.1.15_1.0.0_ga"/>
-  <project remote="advantech-github" name="linux-imx6" path="kernel_imx" revision="imx_4.1.15_1.0.0_ga"/>
+  <project remote="advantech-github" name="linux-imx6" path="kernel_imx" revision="imx_4.1.15_2.0.0_ga"/>
 
 <!-- Advantech RISC Devices Kernel and U-Boot Patch file-->
   <project remote="advantech-github" name="Android_Patch" path="patches_android_7.1.1" revision="android_7.1.1_1.0.0"/>
