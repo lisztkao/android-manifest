@@ -24,8 +24,6 @@
   <linkfile src="soong/root.bp" dest="Android.bp" />
   <linkfile src="soong/bootstrap.bash" dest="bootstrap.bash" />
   </project>
-
-
   <project remote="advantech-github" name="android_risc_bionic" path="bionic" revision="android-7.1.1_r13"/>
   <project remote="advantech-github" name="android_risc_bootable" path="bootable" revision="android-7.1.1_r13"/>
   <project remote="advantech-github" name="android_risc_device" path="device" revision="android-7.1.1_r13"/>
@@ -35,7 +33,7 @@
   <project remote="advantech-github" name="android_risc_system" path="system" revision="android-7.1.1_r13"/>
   <project remote="advantech-github" name="android_risc_external" path="external" revision="android-7.1.1_r13"/>
   <project remote="advantech-github" name="android_risc_frameworks" path="frameworks" revision="android-7.1.1_r13"/>
-
+  <project remote="advantech-github" name="android_risc_vendor" path="vendor" revision="android-7.1.1_r13"/>
 
 <!-- Android Source Code from Google Unchanged AOSP project--> 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
