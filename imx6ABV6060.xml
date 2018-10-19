@@ -124,7 +124,7 @@
   <project path="external/jemalloc" revision="486fa41f4ace88a9d1b96831bc36cbd2cfa4957e" name="platform/external/jemalloc" groups="pdk" />
   <project path="external/jetty" revision="7bed9286f5ae2b2fc89dbcdd62cec570e58b99c4" name="platform/external/jetty" groups="pdk-fs" />
   <project path="external/jhead" revision="5c8f937269957e6651383e988006824781fd021a" name="platform/external/jhead" groups="pdk" />
-  <project path="external/jline" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/external/jline" groups="notdefault,tradefed" />
+  <project path="external/jline" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" revision="f4eb7466d5c09098f9dc54137ed3235e3c43fc9f" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" revision="a6b44658eb1c55295f132a36233a11aa2bd8f9cf" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jpeg" revision="9f3436c3b153b55257caca0345c8135514b26945" name="platform/external/jpeg" groups="pdk" />
@@ -256,8 +256,8 @@
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
   <project path="prebuilts/devtools" revision="d7638b6496f75e896badacddb40a9dd018553bfc" name="platform/prebuilts/devtools" groups="pdk-fs" />
   <project path="prebuilts/eclipse" revision="cf9f78f8cf41b16edf9f712598a42743d5cea4af" name="platform/prebuilts/eclipse" groups="pdk" />
-  <project path="prebuilts/eclipse-build-deps" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-  <project path="prebuilts/eclipse-build-deps-sources" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
+  <project path="prebuilts/eclipse-build-deps" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
+  <project path="prebuilts/eclipse-build-deps-sources" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" />
@@ -283,19 +283,19 @@
   <project path="prebuilts/sdk" revision="8780b5256c0c0b0faa3d699abb02feda52e52ea0" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" revision="27ffdfa0b17baf2e5a95c54060bd741859dd2448" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" revision="c78d07c6e964f23dc12ba739aff49ff1bf74b323" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="tools/adt/eclipse" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
-  <project path="tools/adt/idea" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/adt/idea" groups="notdefault,tools" />
-  <project path="tools/base" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/base" groups="notdefault,tools" />
-  <project path="tools/build" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/build" groups="notdefault,tools" />
-  <project path="tools/emulator" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/emulator" groups="notdefault,tools" />
+  <project path="tools/adt/eclipse" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
+  <project path="tools/adt/idea" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/adt/idea" groups="notdefault,tools" />
+  <project path="tools/base" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/base" groups="notdefault,tools" />
+  <project path="tools/build" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/build" groups="notdefault,tools" />
+  <project path="tools/emulator" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/emulator" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" revision="4d16c0d448da78b6dd16bb5bba1baa14dcbb0997" name="platform/tools/external/gradle" groups="tools" />
-  <project path="tools/idea" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/idea" groups="notdefault,tools" />
-  <project path="tools/loganalysis" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/loganalysis" groups="notdefault,tradefed" />
-  <project path="tools/motodev" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="tools/studio/cloud" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/studio/cloud" groups="notdefault,tools" />
-  <project path="tools/studio/translation" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/studio/translation" groups="notdefault,tools" />
-  <project path="tools/swt" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="tools/tradefederation" revision="91a06c88eae4eb34ac3ce2f1558e016ee0190d79" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <project path="tools/idea" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/idea" groups="notdefault,tools" />
+  <project path="tools/loganalysis" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/loganalysis" groups="notdefault,tradefed" />
+  <project path="tools/motodev" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/motodev" groups="notdefault,motodev" />
+  <project path="tools/studio/cloud" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/studio/cloud" groups="notdefault,tools" />
+  <project path="tools/studio/translation" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/studio/translation" groups="notdefault,tools" />
+  <project path="tools/swt" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="tools/tradefederation" revision="f622fafd4adf19a4f04483523e562ad00ed0096c" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 </manifest>
