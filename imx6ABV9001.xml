@@ -13,7 +13,7 @@
 
   <!-- Advantech RISC Devices Kernel and U-Boot -->
   <project remote="advantech-github" name="uboot-imx6" path="vendor/nxp-opensource/uboot-imx" revision="b7c45910e45885926f538c1cde8c2c040c764d1a"/>
-  <project remote="advantech-github" name="linux-imx6" path="vendor/nxp-opensource/kernel_imx"/>
+  <project remote="advantech-github" name="linux-imx6" path="vendor/nxp-opensource/kernel_imx" revision="imx_4.14.98_2.0.0_ga"/>
 
   <!-- Advantech RISC Devices Kernel and U-Boot Patch file-->
   <project remote="advantech-github" name="Android_Patch" path="patches_android_9.0.0_r35" revision="android-9.0.0_r35"/>
