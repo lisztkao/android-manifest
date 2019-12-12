@@ -16,7 +16,7 @@
   <project remote="advantech-github" name="linux-imx6" path="vendor/nxp-opensource/kernel_imx"/>
 
   <!-- Advantech RISC Devices Kernel and U-Boot Patch file-->
-  <project remote="advantech-github" name="Android_Patch" path="patches_android_9.0.0_r35"/>
+  <project remote="advantech-github" name="Android_Patch" path="patches_android_9.0.0_r35" revision="android-9.0.0_r35"/>
 
   <!-- For imx changed aosp git. -->
   <project remote="advantech-github" name="android_risc_device" path="device" revision="e60fd2aa9240144028aa6325f3479d612b9f0c4e"/>
