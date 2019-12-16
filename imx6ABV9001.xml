@@ -97,7 +97,7 @@
   <project path="external/abi-compliance-checker" revision="665ef2b0fe1ca1191118cd62c30045f08b086735" name="platform/external/abi-compliance-checker" groups="pdk" />
   <project path="external/abi-dumper" revision="6229d6100494c2a7d74271374f936babc33b5720" name="platform/external/abi-dumper" groups="pdk" />
   <project path="external/adhd" revision="0702ba2786f5bedc375b9b7c8120d212c02c08f6" name="platform/external/adhd" groups="pdk" />
-  <project path="external/adt-infra" revision="7d0b6eb149b6908e2012aceb11d6a4b1c1a6539a" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" />
+  <project path="external/adt-infra" revision="4331b39c188822ed070531ca18b2ae07340e9e62" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" />
   <project path="external/android-clat" revision="7ac4a30be5d8cbfafc740f9f86d30f37d15f4483" name="platform/external/android-clat" groups="pdk" />
   <project path="external/androidplot" revision="6dae3a5d91b73210f4f81216d8b279ce60e39a46" name="platform/external/androidplot" groups="pdk" />
   <project path="external/annotation-tools" revision="4aaa13fa86ebd895d501584cdf7d4984799575ac" name="platform/external/annotation-tools" groups="pdk" />
@@ -676,21 +676,21 @@
   <project path="toolchain/pgo-profiles" revision="24bd8873cfbddd16a8fb4c485c6ffa3406a33489" name="toolchain/pgo-profiles" groups="pdk" />
   <project path="tools/acloud" revision="c8f273c3621c24b31b3342a7a587cc063ad5e63e" name="platform/tools/acloud" groups="tools,vts,pdk,tradefed" />
   <project path="tools/appbundle" revision="c24ae13cbeb590b56547b0e539f1be195160c93c" name="platform/tools/appbundle" />
-  <project path="tools/adt/idea" revision="7d0b6eb149b6908e2012aceb11d6a4b1c1a6539a" name="platform/tools/adt/idea" groups="notdefault,tools" />
+  <project path="tools/adt/idea" revision="4331b39c188822ed070531ca18b2ae07340e9e62" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/apksig" revision="b5c17bb374d4534171a288d41edea9184f47d3de" name="platform/tools/apksig" groups="pdk,tradefed" />
   <project path="tools/apkzlib" revision="09728673a6dcd4d9623538c2a5cc39fb97def6af" name="platform/tools/apkzlib" groups="pdk,tradefed" />
-  <project path="tools/base" revision="7d0b6eb149b6908e2012aceb11d6a4b1c1a6539a" name="platform/tools/base" groups="notdefault,tools" />
-  <project path="tools/build" revision="7d0b6eb149b6908e2012aceb11d6a4b1c1a6539a" name="platform/tools/build" groups="notdefault,tools" />
+  <project path="tools/base" revision="4331b39c188822ed070531ca18b2ae07340e9e62" name="platform/tools/base" groups="notdefault,tools" />
+  <project path="tools/build" revision="4331b39c188822ed070531ca18b2ae07340e9e62" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/dexter" revision="d803fdf37ea8b313360283f6baa965be2d01c36c" name="platform/tools/dexter" groups="tools,pdk-fs" />
   <project path="tools/external/fat32lib" revision="445d40e55cbb432b5682a0df54e42b3d5285d57f" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" revision="6eb26c8667a7bc0d57a40433c42c2cdbfc057004" name="platform/tools/external/gradle" groups="tools" clone-depth="1" />
-  <project path="tools/idea" revision="7d0b6eb149b6908e2012aceb11d6a4b1c1a6539a" name="platform/tools/idea" groups="notdefault,tools" />
+  <project path="tools/idea" revision="4331b39c188822ed070531ca18b2ae07340e9e62" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/loganalysis" revision="630e6d6877bf424e70519a612e1f059169c498ed" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed" />
   <project path="tools/metalava" revision="302e6794b6d38ba79260d7fb17bb2229b3f601ff" name="platform/tools/metalava" groups="pdk,tools" />
-  <project path="tools/motodev" revision="7d0b6eb149b6908e2012aceb11d6a4b1c1a6539a" name="platform/tools/motodev" groups="notdefault,motodev" />
+  <project path="tools/motodev" revision="4331b39c188822ed070531ca18b2ae07340e9e62" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/repohooks" revision="cf7c9848a8de520f1ef4e9a1432fe00dd47ee58c" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" />
-  <project path="tools/studio/cloud" revision="7d0b6eb149b6908e2012aceb11d6a4b1c1a6539a" name="platform/tools/studio/cloud" groups="notdefault,tools" />
-  <project path="tools/swt" revision="7d0b6eb149b6908e2012aceb11d6a4b1c1a6539a" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="tools/studio/cloud" revision="4331b39c188822ed070531ca18b2ae07340e9e62" name="platform/tools/studio/cloud" groups="notdefault,tools" />
+  <project path="tools/swt" revision="4331b39c188822ed070531ca18b2ae07340e9e62" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" revision="ebad5b93affe18483ffa706502c187ab741060fe" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" revision="b13d220e6560929aa234b8d1627825fa0355544d" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" revision="f14adb8123c9d7aa8b88960c2042f5fc271b65bf" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
